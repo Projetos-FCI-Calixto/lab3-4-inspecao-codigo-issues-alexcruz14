@@ -10,12 +10,15 @@ class Troco {
 
     protected PapelMoeda[] papeisMoeda;
 
+    // Defeito de Inconsistência: Segundo o diagrama de classes principal, Troco deveria herdar a Pattern Instance Iterator, assim como TrocoIterator esta fazendo.
     public Troco(int valor) {
         papeisMoeda = new PapelMoeda[6];
         int count = 0;
         while (valor % 100 != 0) {
             count++;
         }
+
+        // Defeito de Computação: Loop infinito
         papeisMoeda[5] = new PapelMoeda(100, count);
         count = 0;
         while (valor % 50 != 0) {
@@ -41,6 +44,7 @@ class Troco {
         while (valor % 2 != 0) {
             count++;
         }
+        // Defeito de Dados: Erro de codificação, tem duas posições na estrutura de dados sendo ocupadas.
         papeisMoeda[1] = new PapelMoeda(2, count);
     }
 
@@ -78,6 +82,7 @@ class Troco {
             return ret;
         }
 
+        // Defeito de Excesso: Essa função não existe no diagrama de classe principal.
         @Override
         public void remove() {
             next();
