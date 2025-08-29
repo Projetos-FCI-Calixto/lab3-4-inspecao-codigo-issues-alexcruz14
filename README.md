@@ -26,6 +26,7 @@
 
 - Nome: Alex Cruz de Santana — RA: 10420357
 - Nome: Arthur Jones Bicalho dos Santos — RA: 10420317
+- Nome: Luis Felipe Santos do Nascimento — RA: 10420572
 
 ---
 
