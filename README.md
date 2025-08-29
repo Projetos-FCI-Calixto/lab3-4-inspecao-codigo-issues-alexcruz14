@@ -24,10 +24,8 @@
 
 ## Integrantes do Grupo
 
-- Nome 1 — RA:  
-- Nome 2 — RA:  
-- Nome 3 — RA:  
-- Nome 4 — RA:  
+- Nome: Alex Cruz de Santana — RA: 10420357
+- Nome: Arthur Jones Bicalho dos Santos — RA: 10420317
 
 ---
 
